@@ -1,0 +1,9 @@
+<BlackList>
+	<ProcessName>SysLogUpload.exe</ProcessName>
+	<ProcessName>MonInject32.exe</ProcessName>
+	<ProcessName>MonInject64.exe</ProcessName>
+	<ProcessName>UnloadDll32.exe</ProcessName>
+	<ProcessName>UnloadDll64.exe</ProcessName>
+	<ProcessName>UsMon.exe</ProcessName>
+	<ProcessName>SysMonsTray.exe</ProcessName>
+</BlackList>

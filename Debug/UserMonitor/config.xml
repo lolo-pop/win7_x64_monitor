@@ -1,0 +1,376 @@
+<APIconfig>
+    <MonitorAPI id="0" name="CreateFileA">
+        <isMonitored>1</isMonitored>
+		<filter>F:\Program Files\AnyDesk\AnyDesk.exe</filter>
+    </MonitorAPI>
+    <MonitorAPI id="1" name="ReadFile">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="2" name="CreateFileW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="3" name="MoveFileW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="4" name="CopyFileW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="5" name="DeleteFileW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="6" name="FindFirstFileW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="7" name="FindNextFileW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="8" name="SetFileAttributesW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="9" name="CreateHardLinkW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="10" name="SetEndOfFile">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="11" name="BitBlt">
+        <isMonitored>0</isMonitored>
+		<filter>C:\Windows\system32\notepad.exe</filter>
+    </MonitorAPI>
+    <MonitorAPI id="12" name="CreateFileMapping">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="13" name="OpenFileMapping">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="14" name="CryptAcquireContext">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="15" name="DeviceIoControl">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="16" name="FindWindowEx">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="17" name="GetAsyncKeyState">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="18" name="GetDC">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="19" name="GetForegroundWindow">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="20" name="GetKeyState">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="21" name="GetTempPath">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="22" name="MapViewOfFile">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="23" name="OpenFile">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="24" name="AdjustTokenPrivileges">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="25" name="AttachThreadInput">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="26" name="CallNextHookEx">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="27" name="CheckRemoteDebuggerPresent">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="28" name="ControlService">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="29" name="CreateRemoteThread">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="30" name="CreateToolhelp32Snapshot">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="31" name="EnumProcesses">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="32" name="EnumProcessModules">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="33" name="GetProcAddress">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="34" name="GetSystemDefaultLangID">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="35" name="GetThreadContext">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="36" name="GetTickCount">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="37" name="IsDebuggerPresent">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="38" name="LoadLibraryEx">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="39" name="LoadResource">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="40" name="Module32FirstW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="41" name="Module32NextW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="42" name="OpenProcess">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="43" name="PeekNamedPipe">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="44" name="Process32First">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="45" name="Process32Next">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="46" name="QueryPerformanceCounter">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="47" name="QueueUserAPC">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="48" name="ReadProcessMemory">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="49" name="ResumeThread">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="50" name="SetThreadContext">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="51" name="SuspendThread">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="52" name="Thread32First">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="53" name="Thread32Next">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="54" name="Toolhelp32ReadProcessMemory">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="55" name="VirtualAllocEx">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="56" name="VirtualProtectEx">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="57" name="WinExec">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="58" name="WriteProcessMemory">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="59" name="RegisterHotKey">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="60" name="CreateProcessA">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="61" name="CertOpenSystemStoreW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="62" name="CreateMutexW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="63" name="FindResourceW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="64" name="FindWindowW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="65" name="GetWindowsDirectoryW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="66" name="MapVirtualKeyW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="67" name="OpenMutexW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="68" name="OpenSCManagerW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="69" name="CreateProcessW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="70" name="CreateServiceW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="71" name="GetModuleFileNameExW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="72" name="GetModuleHandleW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="73" name="GetStartupInfoW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="74" name="GetVersionExW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="75" name="LoadLibraryW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="76" name="OutputDebugStringW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="77" name="SetWindowsHookExW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="78" name="ShellExecuteW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="79" name="StartServiceCtrlDispatcherW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="80" name="SetLocalTime">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="81" name="TerminateThread">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="82" name="VirtualFree">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="83" name="SetProcessWorkingSetSize">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="84" name="TerminateProcess">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="85" name="RegOpenKeyEx">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="86" name="RegOpenKeyW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="87" name="RegCreateKeyExW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="88" name="RegCreateKeyW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="89" name="RegQueryValueExW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="90" name="RegQueryValueW">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="91" name="RegSetValueExW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="92" name="RegSetValueW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="93" name="RegDeleteKeyExW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="94" name="RegDeleteKeyW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="95" name="RegSetKeySecurity">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="96" name="RegRestoreKey">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="97" name="RegReplaceKey">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="98" name="RegLoadKey">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="99" name="RegUnLoadKey">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="100" name="accept">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="101" name="send">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="102" name="bind">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="103" name="connect">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="104" name="ConnectNamedPipe">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="105" name="GetAdaptersInfo">
+        <isMonitored>0</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="106" name="gethostname">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="107" name="inet_addr">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="108" name="InternetReadFile">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="109" name="InternetWriteFile">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="110" name="NetShareEnum">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+    <MonitorAPI id="111" name="recv">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="112" name="WSAStartup">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="113" name="InternetOpenW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="114" name="InternetOpenUrlW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="115" name="URLDownloadToFileW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="116" name="FtpPutFileW">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="117" name="HttpSendRequest">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="118" name="HttpSendRequestEx">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="119" name="HttpOpenRequest">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="120" name="InternetConnect">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="121" name="listen">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="122" name="InternetOpenUrlA">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+	<MonitorAPI id="123" name="HttpOpenRequestA">
+        <isMonitored>1</isMonitored>
+    </MonitorAPI>
+</APIconfig>

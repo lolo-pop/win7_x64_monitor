@@ -1,0 +1,8 @@
+<root>
+	<IPaddress>10.10.20.171</IPaddress>
+    <Port>5000</Port>
+	<MACAddress>28:d2:44:1d:69:c8</MACAddress>
+	<LogFileDir>
+	    <LogPath>C:\Log\usermode</LogPath>
+	</LogFileDir>
+</root>

@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/11/18 20:02:30。
+     1>项目“E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\MonDll32.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp DllUserHook.cpp FileApiHook.cpp NetApiHook.cpp OtherApiHook.cpp ProcessApiHook.cpp RegApiHook.cpp stdafx.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         stdafx.cpp
+         RegApiHook.cpp
+         ProcessApiHook.cpp
+         OtherApiHook.cpp
+         NetApiHook.cpp
+         FileApiHook.cpp
+         DllUserHook.cpp
+         dllmain.cpp
+     1>e:\博士\项目win7 32 64行为监测\win32apihook 宇南版\zhangmingxing\mondll32\dllmain.cpp(541): warning C4172: 返回局部变量或临时变量的地址
+     1>e:\博士\项目win7 32 64行为监测\win32apihook 宇南版\zhangmingxing\mondll32\dllmain.cpp(594): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\博士\项目win7 32 64行为监测\win32apihook 宇南版\zhangmingxing\mondll32\dllmain.cpp(578): warning C4101: “h”: 未引用的局部变量
+     1>e:\博士\项目win7 32 64行为监测\win32apihook 宇南版\zhangmingxing\mondll32\dllmain.cpp(679): warning C4101: “d”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\DllUserHook.obj
+         Debug\FileApiHook.obj
+         Debug\NetApiHook.obj
+         Debug\OtherApiHook.obj
+         Debug\ProcessApiHook.obj
+         Debug\RegApiHook.obj
+         Debug\stdafx.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+            正在创建库 E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.lib 和对象 E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.exp
+         MonDll32.vcxproj -> E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.dll
+       PostBuildEvent:
+         copy "E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\Debug\MonDll32.dll" "E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\\TestMonDll32\MonDll32.dll"
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“E:\博士\项目Win7 32 64行为监测\Win32APIHook 宇南版\Zhangmingxing\MonDll32\MonDll32.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.50

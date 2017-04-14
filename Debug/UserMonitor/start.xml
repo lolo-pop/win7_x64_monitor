@@ -1,0 +1,7 @@
+<config>
+	<MoveLog>
+		<LogPath>C:/Log/usermode/Log.txt</LogPath>
+		<KBsize>10</KBsize>
+		<TempLogPath>D:\\Log\\usermode\\</TempLogPath>
+	</MoveLog>
+</config>
