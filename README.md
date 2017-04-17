@@ -1,14 +1,25 @@
-Document下是相关文档。
+Usage:
 
-Example下是示例。
+MonDll32 project is a 32-bit environment using EasyHook code, the target is generated as a 32-bit DLL
 
-Test下是测试项目，有32位和64位之分，测试时可以先编译Dll（成功后Dll自动拷贝至测试项目下），然后启动测试程序开始测试。
+MonDll64 project is a 64-bit environment using EasyHook code, the target generates a 64-bit DLL
 
-ActMon暂预留。
+MonInject project is the injection tool, traversing the process into the designated Dll, generate Exe file
 
-MonDll32是32位环境下使用EasyHook的代码，目标生成为32位DLL
+Usmon project is the scheduler program, enter the command under the console. 
+UsMon start: monitoring start
+UsMon stop : monitoring stop
 
-MonDll64是64位环境下使用EasyHook的代码，目标生成64位DLL
+The monitoring system consists of the UserMonitor folder
 
-MonInject是注入工具，遍历进程注入指定Dll，生成Exe文件
+
+ActMon is temporarily reserved
+
+TestXXX is all a test project
+
+ProcessOperation project tests the API of the operation process
+
+NetworkOperation project tests the API of the operation network
+
+RegOperation project tests the API of the operation register
 
